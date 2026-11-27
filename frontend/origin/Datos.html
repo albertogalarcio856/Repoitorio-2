@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla: Conceptos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="fuente.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tabla: Conceptos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion-tabla">
+            <h2>Conceptos</h2>
+            <div class="tabla-wrapper">
+                <table class="tabla-conceptos">
+                    <thead>
+                        <tr>
+                            <th class="col-num">#</th>
+                            <th class="col-concepto">Concepto</th>
+                            <th class="col-definicion">Definición</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Front-end</td><td>Capa del software con la que interactúa el usuario; incluye la interfaz, sus estilos y su comportamiento en el navegador o dispositivo.</td></tr>
+                        <tr><td>2</td><td>Back-end</td><td>Capa del software que procesa la lógica de negocio y los datos en el servidor.</td></tr>
+                        <tr><td>3</td><td>Componente</td><td>Pieza reutilizable e independiente de la interfaz (botón, campo, tarjeta, tabla, modal, mapa).</td></tr>
+                        <tr><td>4</td><td>Diseño atómico</td><td>Metodología que organiza la interfaz en átomos, moléculas, organismos, plantillas y páginas.</td></tr>
+                        <tr><td>5</td><td>HTML5 semántico</td><td>Uso de etiquetas que describen el significado del contenido (header, nav, main, footer).</td></tr>
+                        <tr><td>6</td><td>SVG</td><td>Formato de gráficos vectoriales basado en XML; permite dibujar un mapa como un conjunto de trazos (path) que se pueden estilizar y programar.</td></tr>
+                        <tr><td>7</td><td>CSS3</td><td>Lenguaje de hojas de estilo que define la presentación visual de un documento HTML.</td></tr>
+                        <tr><td>8</td><td>Variables CSS (custom properties)</td><td>Valores reutilizables definidos en CSS, como colores o tamaños de la guía de estilos.</td></tr>
+                        <tr><td>9</td><td>Flexbox</td><td>Modelo de CSS para distribuir elementos en una dimensión (fila o columna).</td></tr>
+                        <tr><td>10</td><td>CSS Grid</td><td>Modelo de CSS para distribuir elementos en dos dimensiones (filas y columnas).</td></tr>
+                        <tr><td>11</td><td>Diseño adaptable (responsive design)</td><td>Interfaz que se ajusta a distintos tamaños de pantalla.</td></tr>
+                        <tr><td>12</td><td>Mobile first</td><td>Estrategia que diseña primero para pantallas pequeñas y luego amplía a pantallas mayores.</td></tr>
+                        <tr><td>13</td><td>Breakpoint</td><td>Ancho de pantalla en el que cambia la distribución de la interfaz.</td></tr>
+                        <tr><td>14</td><td>Media query</td><td>Regla CSS que aplica estilos según las características del dispositivo.</td></tr>
+                        <tr><td>15</td><td>Tailwind CSS</td><td>Framework de CSS de tipo utility-first: se construye la interfaz combinando clases pequeñas de un solo propósito (p-4, flex, text-lg).</td></tr>
+                        <tr><td>16</td><td>Utility-first</td><td>Enfoque de estilos basado en clases utilitarias aplicadas directamente en el HTML, en lugar de escribir CSS propio por componente.</td></tr>
+                        <tr><td>17</td><td>@theme</td><td>Directiva de Tailwind CSS v4 que define los tokens del proyecto (colores, tipografías, espaciados) y genera clases a partir de ellos.</td></tr>
+                        <tr><td>18</td><td>Vite</td><td>Herramienta de desarrollo que crea, sirve y empaqueta proyectos front-end modernos.</td></tr>
+                        <tr><td>19</td><td>DOM (Document Object Model)</td><td>Representación en árbol de una página que JavaScript puede leer y modificar.</td></tr>
+                        <tr><td>20</td><td>Evento</td><td>Acción del usuario o del sistema (clic, envío, tecla) a la que el código puede responder.</td></tr>
+                        <tr><td>21</td><td>Delegación de eventos</td><td>Técnica que usa un solo escuchador en un elemento padre para atender los eventos de muchos hijos.</td></tr>
+                        <tr><td>22</td><td>JSON</td><td>Formato ligero de intercambio de datos basado en pares clave-valor.</td></tr>
+                        <tr><td>23</td><td>API REST</td><td>Servicio web que expone datos y operaciones mediante peticiones HTTP.</td></tr>
+                        <tr><td>24</td><td>Vue.js</td><td>Framework progresivo de JavaScript para construir interfaces de usuario con componentes reactivos.</td></tr>
+                        <tr><td>25</td><td>Componente de archivo único (SFC)</td><td>Archivo .vue que reúne la lógica (script), la plantilla (template) y los estilos de un componente.</td></tr>
+                        <tr><td>26</td><td>Reactividad</td><td>Capacidad de Vue de actualizar la pantalla automáticamente cuando cambian los datos (ref, reactive, computed).</td></tr>
+                        <tr><td>27</td><td>Directiva</td><td>Atributo especial de Vue que aplica comportamiento a la plantilla (v-if, v-for, v-model, v-on).</td></tr>
+                        <tr><td>28</td><td>Props y emits</td><td>Datos que un componente recibe de su padre (props) y eventos que envía hacia su padre (emits).</td></tr>
+                        <tr><td>29</td><td>Vue Router</td><td>Librería oficial de Vue para navegar entre vistas mediante rutas.</td></tr>
+                        <tr><td>30</td><td>Composable</td><td>Función de Vue que encapsula lógica reutilizable con estado (por ejemplo, useDatos).</td></tr>
+                        <tr><td>31</td><td>Mapa interactivo</td><td>Interfaz en la que el usuario selecciona zonas de un mapa para consultar su información.</td></tr>
+                        <tr><td>32</td><td>Mapa coroplético</td><td>Mapa que colorea cada zona según el valor de un dato, acompañado de una leyenda.</td></tr>
+                        <tr><td>33</td><td>GeoJSON</td><td>Formato JSON para representar formas geográficas, como los límites de los municipios.</td></tr>
+                        <tr><td>34</td><td>Leaflet</td><td>Librería de JavaScript para mapas interactivos con teselas (por ejemplo, de OpenStreetMap).</td></tr>
+                        <tr><td>35</td><td>PWA (aplicación web progresiva)</td><td>Aplicación web que puede instalarse y funcionar como aplicación móvil.</td></tr>
+                        <tr><td>36</td><td>Git</td><td>Sistema de control de versiones distribuido.</td></tr>
+                        <tr><td>37</td><td>Commit</td><td>Registro de un conjunto de cambios en el repositorio, con mensaje y autor.</td></tr>
+                        <tr><td>38</td><td>Rama (branch)</td><td>Línea de desarrollo independiente dentro de un repositorio.</td></tr>
+                        <tr><td>39</td><td>Pull request</td><td>Solicitud para integrar los cambios de una rama, revisada por otro desarrollador.</td></tr>
+                        <tr><td>40</td><td>W3C</td><td>Consorcio que define los estándares de la web (HTML, CSS, accesibilidad).</td></tr>
+                        <tr><td>41</td><td>WCAG 2.1</td><td>Pautas de accesibilidad para el contenido web; el nivel AA es el exigido en esta guía.</td></tr>
+                        <tr><td>42</td><td>ARIA</td><td>Atributos que mejoran la accesibilidad de componentes dinámicos para tecnologías de asistencia.</td></tr>
+                        <tr><td>43</td><td>Lighthouse</td><td>Herramienta del navegador Chrome que audita rendimiento, accesibilidad y buenas prácticas.</td></tr>
+                        <tr><td>44</td><td>Matriz de fidelidad</td><td>Comparación pantalla por pantalla entre el prototipo aprobado y la interfaz construida.</td></tr>
+                        <tr><td>45</td><td>Coevaluación</td><td>Valoración que hacen los compañeros del desempeño de un aprendiz o de un equipo, con criterios conocidos de antemano.</td></tr>
+                        <tr><td>46</td><td>Ambiente de formación</td><td>Espacio físico donde se dicta un curso (aula, salón, laboratorio o auditorio). Es el término que usan los documentos de requisitos del proyecto; en esta guía aula y ambiente se usan como sinónimos.</td></tr>
+                        <tr><td>47</td><td>Ficha</td><td>Número que identifica un grupo de aprendices que cursa un programa de formación.</td></tr>
+                        <tr><td>48</td><td>Franja horaria</td><td>Intervalo de tiempo de un día (por ejemplo, lunes de 07:00 a 13:00) en el que se dicta un curso.</td></tr>
+                        <tr><td>49</td><td>Cruce de horario</td><td>Conflicto que ocurre cuando un aula o un instructor quedan asignados a dos cursos en franjas que se superponen el mismo día.</td></tr>
+                        <tr><td>50</td><td>Guardia de navegación</td><td>Función de Vue Router que se ejecuta antes de entrar a una ruta y permite restringir el acceso según el rol del usuario.</td></tr>
+                        <tr><td>51</td><td>Paginación</td><td>División de una lista larga de resultados en páginas, con controles para avanzar, retroceder o ir a una página concreta.</td></tr>
+                        <tr><td>52</td><td>DER (documento de especificación de requisitos)</td><td>Documento del proyecto que lista los requisitos funcionales (RF) y no funcionales (RNF) del software.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fuente: Archivo Narrow (Google Fonts) &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
